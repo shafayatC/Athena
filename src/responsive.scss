@@ -1,0 +1,205 @@
+
+/*		Mobile Layout: 480px.   */
+@media only screen and (max-width: 767px) { 
+    .menu {
+        display: none;
+    }
+    .mobileMenuWrap {
+        display: block !important;
+        float: right;
+    }    
+    .MenuBtn {
+        background: none;
+        border: none;
+        float: right;
+    }
+    .MenuBtn img {
+        width: 35px;
+    }
+    .flipMobileMenu {
+        width: 100%;
+        position: fixed;
+        z-index: 999;
+        padding: 42px 21px;
+        background: #fff;
+        height: 100%;
+        top: 0;
+    }
+    .mobileMenu {
+        display: block;
+        text-align: center;
+        padding: 0;
+        width: 100%;
+        float: left;
+    }
+    .mobileMenu li {
+        float: left;
+        width: 100%;
+        list-style: none;
+    }
+    .mobileMenu a {
+        width: 100%;
+        float: left;
+        padding: 9px 0;
+        background: #fff;
+        color: #000;
+        font-weight: bold;
+    }
+    .headerWrap::before {
+        background: none !important;
+    }
+    .mobileMenu .contactus {
+        background: linear-gradient(57deg, #1ddab7 0%, #09b1e7 100%);
+        width: 181px;
+        display: block;
+        margin: auto;
+        float: none;
+        font-weight: normal;
+        margin-top: 15px;
+        text-decoration: none;
+    }
+    .headerWrap::after {
+        top: -176px !important;
+        left: -75px !important;
+    }
+    .hdInfo h1 {
+        width: 100% !important;
+        font-size: 35px !important;
+        padding-top: 28px !important;
+        padding-bottom: 0 !important;
+    }
+    .hdInfo p {
+        font-size: 16px !important;
+        line-height: 30px !important;
+    }
+    .btn_2 {
+        padding: 14px 30px !important;
+    }
+    .hdbigImage {
+        margin-top: 50px;
+        padding: 0 35px;
+    }
+    .hdInfo {width: 100% !important;}
+    .hdInfo_wrap::before {
+        left: unset !important;
+        top: 9px !important;
+        right: 52px;
+        opacity: 0.3 !important;
+    }
+    .hdbigImage::before {
+        background-image: url('./Component/Home/img/spotg.png') !important;
+        top: -41px !important;
+        opacity: 0.3;
+    }
+    .hdInfo_wrap::after {
+        background: none !important;
+    }
+    /*WeDo*/
+    .info_2 p {
+        width: 73% !important;
+    }
+    .serviceWrap {
+        padding: 0 25px;
+    }
+    .wedo_wraper::before {
+        background: none !important; 
+    }
+    .projectWrap {
+        padding-top: 0px;
+    }
+    .projectWrap::before {background: none !important;}
+    .wedo_wraper {
+        padding-bottom: 20px !important;;
+    }
+    .projectWrap {
+        padding-top: 35px !important;
+        padding-bottom: 40px !important;
+    }
+    .prRight h2 {
+        font-size: 35px !important;
+    }
+    .prRight {
+        padding-left: 15px  !important;
+    }
+    /* achive */
+    
+    .achievWrap {
+        padding-top: 85px !important;;
+    }
+    .lftAchieve {
+        margin: 0 !important;;
+        padding-top: 0 !important;
+        padding-right: 15px !important;
+    }
+    .lftAchieve {
+        margin: 0;
+        padding-top: 0 !important;
+        padding-right: 15px !important;
+    }
+    .lftAchieve h2 {
+        font-size: 35px !important;;
+        width: 100% !important;;
+        float: left !important;;
+    }
+    .lftAchieve p {
+        width: 100% !important;;
+        float: left !important;;
+        margin-bottom: 45px !important;;
+    }
+    .achiveBtn {
+        width: 100% !important;;
+    }
+    /*package */
+    .heading_3 {
+        font-size: 32px;
+    }
+    .packageSingle {
+        width: 100% !important;
+        margin-bottom: 30px !important;
+    }
+    .packageSingle:last-child{float: left !important;}
+    .packageWrap {
+        padding-bottom: 30px !important;
+    }
+    .subsribe h2 {
+        font-size: 35px !important;
+    }
+    .subsribe p {
+        font-size: 18px !important;
+        padding: 0 30px !important;
+    }
+    .subscribeForm {
+        width: 100% !important; 
+    }
+    .subscribeForm input {
+        width: 58% !important;
+    }
+
+    /*footer*/
+    .footerWrap {
+        padding-top: 0px !important;
+    }
+    .logo_2 {
+        display: block !important;
+        margin: auto !important;
+        width: 159px !important;
+    }
+    .logo_2 img {
+        width: 100% !important;
+    }
+    .socialMedia {
+        display: table !important;
+        margin: auto !important;
+    }
+    .socialMedia a:nth-child(4) {
+        margin-right: 0px !important;
+    }
+    .ftrRight {
+        margin-top: 50px;
+    }
+    .linkList_1 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+}
