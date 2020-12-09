@@ -1,6 +1,6 @@
-# Athena Front End Responsive Design 
+# Athena : Responsive Web design
 ## About 
-Athena is an unique design. Athena is responsive for all devices.  
+Athena is an unique design and also responsive for all devices.  
 
 
 [Live Site](https://athena-7b351.web.app/)
